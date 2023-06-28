@@ -1,0 +1,105 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="initial-scale ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../estilos/formulario.css">
+        <link rel="stylesheet" type="text/css" href="../estilos/layout.css">
+        <link rel="stylesheet" media="(max-width: 800px)" href="altura-max800.css" />
+        <script src="../scripts/faleconosco.js"></script>
+        <title>ADOTE-FALE CONOSCO</title>
+    </head>
+    <body>    
+        <header>
+        <img src="../imagens/dog1.png" alt="doguizinho">
+        </header>
+        <nav>
+            <ul class="menu">
+                  <li><a href="../paginas/index.html">INICIO</a></li>
+                        <li><a href="#">CONTATO</a>
+                           <ul>
+                                <li><a href="../paginas/contato.html">ADOTE- FALE CONOSCO</a></li>
+                                <li><a href="../paginas/unidades.html">UNIDADES</a></li>
+                             </ul>
+                      </li>
+                  <li><a href="../paginas/custosmensais.html">CUSTOS MENSAIS</a></li>
+          </ul>
+          </nav>
+        <main>  
+            <form action="#" method="post" name="frmcadastro">
+                <p>
+                    <input type="text" name="Nome"  id="Nome" placeholder="Nome">
+                    <input type="text" name="Sobre" id="Sobrenome" placeholder="Sobrenome">
+                </p>
+                <p>  
+                    <label for="aniversario">SEU ANIVERSÁRIO AQUI</label>
+                    <input type="date"name=aniversario  id="aniversario" required="jdns" placeholder="aniversario">
+                </p>
+                <p>
+                    <input type="text" name="genero" id="genero" placeholder="Gênero">
+                </p>
+                <p>
+                    <input type="text" name="contato" id="telefone" placeholder="Telefone">
+                    <input type="email"name="contato" id="email" placeholder="Email">
+                </p>
+                <p>
+                        <button id="btnenviar" type="button" onclick="enviar()">ENVIAR</button> 
+                        <button id="btnreset"  type="button" onclick="limpar()">LIMPAR</button>
+                </p>   
+                <h1 style="text-align: center">Dados Informados</h1>
+                    Nome:<label id="nomeCad"></label>
+                    <br>
+                    Sobrenome:<label id="sobrenomeCad"></label>
+                    <br>
+                    Data Nascimento:<label id="nascimentoCad"></label>
+                    <br>
+                    Genero: <label id="genero1"></label>
+                    <br>
+                    Telefone: <label id="telefone1"></label>
+                    <br>
+                    Email: <label id="email1"></label>
+            </form>           
+        </main>    
+        <article>
+            <h1>VOCE QUER ADOTAR, AJUDAR
+            <br>
+                 OU TEM ALGUMA DÚVIDA?</h1>
+            <br>
+            <p1>Preencha este formulário e entratemos em contato o mais rápido possível!</p1>
+        </article>            
+        <aside>
+            <div id="sobrenos1">
+        <h1>SOBRE NÓS</h1>
+        <br>
+        <p1>Inaugurada em 2007, na cidade de Sorocaba-SP, somos um abrigo de animais em situação de rua que precisam de um novo lar.</p1>
+        <br>
+        <p2>Nossa idealizadora Dora Maricotas, já abrigou em seu lar mais de 50.000,00 animais nestes 16 anos.</p2>
+        <br>
+        <br>
+        <p3>Em toda nossa história, já castramos mais de 30.000,00 animais e vacinamos 45.000,00. Tudo isso, graças a vocês, doadores.</p3>
+        <br>
+        <div id="dogi"><img src="../imagens/dogi.jpeg" alt="casa" width="100px"></div>
+            </div>
+        </aside>
+        <footer>
+        <p1>ADOTE UM DOGUINHO, 2023-TODOS OS DIREITOS RESERVADOS</p1>
+        <footer>
+            <p1>  <strong>ADOTE UM DOGUINHO, 2023-TODOS OS DIREITOS RESERVADOS</strong></p1>
+            <img src="../imagens/dog1.png" id="doguizinho" alt="doguizinho"  width="200px">
+                <a href="https://pt-br.facebook.com/"><img src="../imagens/face.png" id="redessociais" width="50px"> </a>
+                <a href="https://www.instagram.com/"><img src="../imagens/insta.jpeg" id="insta" width="48px"> </a>
+                <address>
+                    Endereço Sede: UNIDADE 1: Sorocaba-SP <br> Endereço: Antônio José, 1- Campolim <br> Telefone: (15)4002-8922<br>
+                </address>
+
+        </footer>
+        <script>
+        var a= prompt("Opa, qual é seu nome?");
+        alert("Opa,  "+a+ "  seja bem-vindo(a)");
+        </script>
+    </body>
+    </html>
+</body>
+</html>

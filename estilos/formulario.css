@@ -1,0 +1,85 @@
+header{
+    padding: 40px;
+    background-color: orange;
+    text-align: center;
+    border:solid;
+}
+ul{
+    border: dotted; border-color:orange; 
+    display: inline;
+    padding-inline: 70px;
+    border-style: groove;
+}
+#sobrenos1{
+    box-shadow: 40px;
+    box-sizing: border-box;
+    border:dotted;
+
+}
+h1{
+    text-align: center;
+}
+footer{
+    clear:both ;
+    padding: 40px;
+    background-color: orange;
+    text-align: center;
+    border:solid
+}
+input{
+    font-size:medium;
+    border-radius: 10px;
+    padding: 15px;
+    border: unset;
+    text-align: center;
+}
+#h1{
+    text-align: center;
+}
+.nome{
+    background-color: orange;
+}
+#Nome, #Sobrenome, #aniversario, #genero, #telefone, #email{
+    border: dotted;
+}
+#Nome{
+    margin-top: 4%;
+    margin-right: 1%;
+    margin-left:-420px;
+
+}
+#aniversario{
+    margin-top: 1%;
+}
+article{
+    float:left;
+    margin-top: -420px;
+    font-size: 13px;
+}
+#genero{
+    margin-top: 1%;
+}
+#telefone, #email{
+    margin-top: 1%;
+    margin-right: 10px;
+}
+textarea::placeholder {
+    padding-left: 10px;
+  }
+#btnenviar,#btnreset{
+    text-align: center;
+    border-radius:50px;
+    color:white;
+    background-color: orange;
+    width: 100px;
+    margin-top: 1%;
+}
+main{
+    text-align: center;
+}
+@media(max-widht:600px){
+    nav, main,aside{
+     width: 100%;
+     height: auto;
+    }
+ }
